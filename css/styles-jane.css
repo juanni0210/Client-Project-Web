@@ -1,0 +1,327 @@
+*{
+/*    border: 1px solid #c00;*/
+}
+html {
+  font-size: 1rem;
+}
+
+
+/**  THEME COLORS **/
+.dark-grey-theme{
+    background-color: #333;
+}
+.grey-theme-transparent{
+    background: rgba(0,0,0,0.7);
+}
+
+.light-blue-theme{
+    background: #0099d8;
+}
+.light-blue-text{
+    color: #0099d8;
+}
+.white-text{
+    color: #fff;
+}
+.centered{
+    text-align: center;
+}
+.max-vh{
+    height: 100vh;
+}
+/** ELEMENTS FROM TOP OF INDEX.HTML FILE DOWNWARD **/
+
+header{
+    
+}
+.contact-info{
+    padding: 0.15em;
+}
+.info{
+    
+}
+.btn{
+    border-radius: 50px;
+} 
+
+/** NAVIGATION  **/
+.navbar-toggler-icon{
+    font-size: 35px;
+}
+ul{
+    
+}
+li{
+    
+}
+a{
+    
+}
+
+.nav-link{
+    color: #000;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.nav-link:hover{
+    color: #555    ;
+}
+.nav-link-sub{
+    color: #fff;
+}
+.nav-link-sub:hover{
+    color: #ccc;
+}
+escape a:visited{
+    color: #fff;
+}
+.escape{
+    position: fixed;
+    right: 10%;
+    bottom: 0;
+    z-index: 9;
+    border-radius: 20px;
+}
+.escape a{
+    color: #fff;
+}
+
+.welcome{
+    
+}
+h1{
+    
+}
+h2{
+    padding: 15px 0;
+    text-align: center;
+}
+.contrast{
+    filter: brightness(80%);
+}
+/**CAROUSEL / HERO IMAGE */
+
+.img-fluid:hover{
+    filter: brightness(100%);
+    
+}
+.hero-image-text{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.read-more{
+    
+}
+.welcome{
+    padding: 2em 0 0 0;
+}
+.welcome-text{
+    padding: 15px 0
+}
+.btn-center{
+    width: 20%;
+    margin: 0 auto;
+}
+.img-title{
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 40%;
+  letter-spacing: 3px;
+}
+.home-images{
+    object-fit: cover;
+    overflow: hidden;
+}
+.mission-statement{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+}
+.mission-text{
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 600;
+}
+.banner-text{
+    
+}
+.accredited-text{
+    padding: 50px 0;
+    text-align: center;
+    color: #0099d8;
+}
+.navbar{
+    padding: 2em;
+    z-index: 9;
+}
+.partner-logos{
+  
+    width: 60%;
+    margin: 0 auto;
+}
+.partner-logos img{
+    padding: 0.5em;
+}
+footer{
+
+    padding-top: 1em;
+}
+.footer-logo img{
+    padding: 1em;
+}
+ 
+/*jane*/
+
+footer .showing-contact-info {
+    display: none;
+}
+
+footer .collapse-contact-info {
+    text-align: center;
+}
+
+footer .collapse-contact-info button {
+    margin: 0;
+}
+
+/*jane*/
+        
+
+
+
+
+
+
+
+
+
+/*
+.footer-menu nav {
+    width: 100%；
+}
+
+.footer-menu ul li {
+    font-size: 0.8rem;
+    display: inline-block;
+}
+*/
+
+
+
+.copyright{
+    padding-top: 1em;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+
+
+/* all subpages */
+
+
+/*contact page from jane */
+.sub-pages .contact {
+    position: relative;
+}
+
+.sub-pages .contact .sub-banner {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url(../images/contact-banner.jpg);
+    background-size: cover;
+    height: 550px;
+}
+
+.sub-pages .contact .subpage-heading {
+    position: absolute;
+    bottom: 50%;
+    left: 40%;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/* Custom, iPhone Retina */ 
+	@media only screen and (min-width : 320px) {
+		  html {
+            font-size: 1.1rem;
+          }
+        
+        
+        footer .collapse-contact-info button {
+            margin: 0.3em;
+        }
+
+
+	}
+
+	/* Extra Small Devices, Phones */ 
+	@media only screen and (min-width : 480px) {
+      html {
+        font-size: 1rem;
+      }
+        
+         footer .collapse-contact-info button {
+            margin: 1.8rem;
+        }
+      
+        
+    
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px) {
+     footer .contact-button {
+            display: none;
+        }
+        
+         footer .showing-contact-info {
+            display: block;
+        }
+
+   
+
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+    
+	}
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
+
+	}
